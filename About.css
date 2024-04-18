@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #2e2b2b;
 }
 
 header {
@@ -15,11 +15,17 @@ header {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: rgb(27, 25, 25);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: left;
+}
+.container p{
+    color: #fff;
+}
+.container ul li{
+    color: #878a72;
 }
 
 .about-content {
@@ -31,10 +37,10 @@ header {
 }
 
 img {
-    border-radius: 50%;
-    max-width: 200px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 70%;
+    max-width: 250px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(153, 128, 128, 0.1);
 }
 
 p {
@@ -53,7 +59,7 @@ ul li {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #c47575;
     text-align: center;
     padding: 10px;
     position: fixed;
