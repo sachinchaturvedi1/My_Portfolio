@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(51, 51, 51);
+    color: #c71616;
     text-align: center;
     padding: 20px;
 }
@@ -23,12 +23,13 @@ header {
 .project {
     width: 45%;
     margin: 10px;
-    background-color: #fff;
+    background-color: #474646;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    color: white;
 }
 
 .project:hover {
@@ -46,11 +47,11 @@ header {
 }
 
 .project h2 {
-    color: #333;
+    color: #fcf4f4;
 }
 
 .project p {
-    color: #555;
+    color: #f7f7f7;
     line-height: 1.4;
 }
 
